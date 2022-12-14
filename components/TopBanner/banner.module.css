@@ -1,0 +1,104 @@
+.banner_section {
+    background-color: #000000;
+    position: relative;
+    z-index: -2;
+    width: 100%;
+    height: 470px;
+}
+
+/* ================================== */
+/* ========== Banner_Container ====== */
+/* ================================== */
+.banner_section {
+    background-color: #000000;
+    position: relative;
+    z-index: -2;
+    width: 100%;
+    height: 470px;
+}
+
+.Banner_Container::before {
+    /* background-image: url(../image/ContactBanner.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+/* 1024 */
+@media only screen and (max-width: 1024px) {
+    .banner_section {
+        height: 340px;
+    }
+}
+
+/* 768 */
+@media only screen and (max-width: 768px) {
+    .banner_section {
+        height: 256px;
+    }
+}
+
+/* 425 */
+@media only screen and (max-width: 425px) {
+    .banner_section {
+        height: 142px;
+    }
+}
+
+/* 375 */
+@media only screen and (max-width: 375px) {
+    .banner_section {
+        height: 125px;
+    }
+}
+
+/* 320 */
+
+@media only screen and (max-width: 320px) {
+    .banner_section {
+        height: 106px;
+    }
+}
+/* Banner img path */
+/* .Banner_Contact::before {
+    background-image: url(../image/ContactUs.png);
+}
+.Banner_Loan::before {
+    background-image: url(../image/Banking.png);
+}
+.Banner_Accommodation::before {
+    background-image: url(../image/Accomodation.png);
+}
+.Banner_Blog::before {
+    background-image: url(../image/Blog.png);
+}
+.Banner_GD::before {
+    background-image: url(../image/GroupDiscussion.png);
+}
+.Banner_PI::before {
+    background-image: url(../image/PersonalInterview.png);
+}
+.Banner_UG_Exam::before {
+    background-image: url(../image/Undergraduate.png);
+}
+.Banner_PG_Exam::before {
+    background-image: url(../image/Postgraduate.png);
+}
+.Banner_Careers::before {
+    background-image: url(../image/JoinUs.png);
+}
+.Banner_Terms::before {
+    background-image: url(../image/Terms.jpg);
+}
+.Banner_privacy::before {
+    background-image: url(../image/home//project-enalicece.png);
+} */

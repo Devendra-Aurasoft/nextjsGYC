@@ -1,0 +1,79 @@
+.react-responsive-modal-modal {
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  .input-field {
+    width: 85%;
+    margin: auto;
+    height: 44px;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--green);
+  }
+  
+  .input-error {
+    border-color: red;
+  }
+  
+  .error {
+    text-align: left;
+    color: red;
+    margin: 0px 10px;
+    width: 100%;
+  }
+  
+  .sub-heading {
+    color: var(--orange);
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.3rem;
+    border-bottom: 2px solid var(--green);
+    color: var(--green);
+  }
+  .text-area {
+    height: 80px;
+  }
+  .submit-button {
+    width: 100%;
+    color: var(--green);
+    border: 2px solid var(--green);
+    margin: auto;
+    transition: 0.6s;
+  }
+  
+  .submit-button:hover {
+    color: #fff;
+    background-color: var(--green);
+  }
+  .Form_main_heading {
+    font-weight: 700;
+    color: var(--orange);
+    text-align: center;
+    margin-top: 20px;
+  }
+  .modal-content{
+    padding: 20px ; 
+    background-image: linear-gradient(to bottom right,orange,#fff,#fff,#fff,var(--green))!important;
+   }
+   .message{
+    color: var(--orange);
+    font-size: 20px;
+    padding: 50px !important;
+    text-align: center;
+   }

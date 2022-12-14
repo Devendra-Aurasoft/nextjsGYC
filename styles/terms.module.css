@@ -1,0 +1,10 @@
+.heading_35{
+    font-weight: 600;
+    color: var(--orange) !important;
+}
+.heading_45{
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 35px;
+    color: var(--orange) !important; 
+}
